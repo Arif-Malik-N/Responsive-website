@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #6200EE !important ;
+   position: sticky !important;
+
+}
+.nav-link, .navbar-brand{
+    color: #fff !important;
+    font-weight: bold !important;    
+    
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    font-family:'Times New Roman', Times, serif
+}
+.images{
+    height: 400px !important;
+    width: auto;
+}
+.my-color{
+    color: #6200EE;
+}
+.fa-truck ,.fa-headphones, .fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #6200EE;
+}
+h3 {
+    color: #6200EE;
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.freeservices {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.btn {
+    background-color: #6200EE !important;
+    color: #fff !important;
+    width: 100%;
+}
+.btn:hover{
+  
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+}
+h1:hover{
+    color: #6200EE;
+    
+    
+}
+
+footer{
+    height: 80px;
+    width:auto;
+    background-color: #6200EE !important;
+    margin-top: 20px;
+}
+.Mainfooter {
+    color: #fff !important;
+}
+.fa-facebook-official, .fa-instagram, .fa-youtube-play {
+    font-size: 30px !important;
+    margin-right: 50px;
+    margin-top: 22px;
+}
+.copy {
+    text-align: left;
+margin-top: 30px;
+}
+.icon{
+    text-align: right;
+}
+@media screen and (max-width: 600px){
+    .card1, .card2, .card3 {
+        width: 100%;
+    } 
+    .fa-facebook-official, .fa-instagram, .fa-youtube-play {
+        font-size: 20px !important;
+        margin-right: 50px;
+        margin-top: 22px;
+    }
+
+    footer{
+        height:auto;
+        width:100%;
+        background-color: #6200EE !important;
+        margin-top: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+   .btn {
+    background-color: #6200EE !important;
+    color: #fff !important;
+    width: 100%;
+} 
+}
+.un {
+   
+
+    background-size: cover;
+}
